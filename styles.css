@@ -1,2 +1,68 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+	flex-shrink:1;
+
+}
+
+.item1 {
+  flex: 1 1 auto;
+  margin: 0 -2px;
+	background-color:green;
+	height:80px;
+	font-size:30px;
+	width:30px;
+	
+}
+.item2 {
+  flex: 1 1 auto;
+  margin: 0 10px;
+	background-color:green;
+	height:80px;
+	font-size:30px;
+	width:30px;
+}
+.item3 {
+  flex: 1 1 auto;
+  margin: 0 -2px;
+	background-color:green;
+	height:80px;
+	font-size:30px;
+	width:30px;
+}
+.item4 {
+  flex: 1 1 auto;
+  margin: 0 10px;
+	background-color:green;
+	height:80px;
+	font-size:30px;
+	width:30px;
+}
+.item5 {
+  flex: 1 1 auto;
+  margin: 0 -2px;
+	background-color:green;
+	height:80px;
+	font-size:30px;
+	width:30px;
+}
+.item6 {
+  flex: 1 1 auto;
+  margin: 0 10px;
+	background-color:red;
+	height:80px;
+	font-size:30px;
+	width:30px;
+}
+.item7 {
+  flex: 1 1 auto;
+  margin: 0 -2px;
+	background-color:blue;
+	height:80px;
+	font-size:30px;
+	width:30px;
+}
